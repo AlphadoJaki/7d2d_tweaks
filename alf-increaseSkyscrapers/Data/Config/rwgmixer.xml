@@ -129,11 +129,11 @@
 			<prefab name="store_pawn_01" max_count="1" />
 		</prefab_rule>
 		<prefab_rule name="industrialGroup">
-		<prefab rule="skyscrapers" min_count="1" max_count="2" prob="1000"/>
-		<prefab rule="industrial_Bldgs" prob="25"/>
-		<prefab rule="industrial_JunkyardsLots" prob="25"/>
-		<prefab rule="industrial_MpWasteBldgs" max_count="4" prob="25"/>
-		<prefab rule="industrial_RubbleBldgs" max_count="4" prob="25"/>
+	<prefab rule="skyscrapers" min_count="2" max_count="2" prob="1000"/>
+		<prefab rule="industrial_Bldgs" />
+		<prefab rule="industrial_JunkyardsLots" />
+		<prefab rule="industrial_MpWasteBldgs" max_count="4" />
+		<prefab rule="industrial_RubbleBldgs" max_count="4" />
 		</prefab_rule>
 		<prefab_rule name="ruralGroup">
 		<prefab rule="crop_Fields" max_count="2" />
