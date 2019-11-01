@@ -81,6 +81,7 @@
 		<prefab rule="residentialNew_Apts" max_count="2" />
 		</prefab_rule>
 		<prefab_rule name="commercialGroup">
+	<prefab rule="skyscrapers" min_count="2" max_count="2" prob="1000"/>
 		<prefab rule="diner_FastfoodGroup" max_count="2" />
 		<prefab rule="gas_Station_Group" max_count="2" />
 		<prefab rule="storeGroup" max_count="4" />
