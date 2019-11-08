@@ -29,7 +29,7 @@
 		<downtown_zone_size_perc value="0.45" />
 		<hub_size value="300,1000" />
 		<prefab_rule name="townGroup" />
-		<street_gen level="5" length_multiplier="10">
+		<street_gen level="5" length_multiplier="8">
 			<axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]" />
 			<rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]" />
 			<rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]" />
